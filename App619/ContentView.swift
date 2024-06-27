@@ -14,9 +14,6 @@ struct ContentView: View {
     @AppStorage("isBlock") var isBlock: Bool = true
     @State var isDead: Bool = true
     
-    @State var telegram: URL = URL(string: "https://t.me/")!
-    @State var isTelegram: Bool = false
-    
     @AppStorage("status") var status: Bool = false
     @AppStorage("isRequested") var isRequested: Bool = false
     

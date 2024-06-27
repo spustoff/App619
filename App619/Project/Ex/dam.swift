@@ -7,8 +7,5 @@
 
 struct DataManager {
     
-    let codeTech: String = "has_image"
-    
-    let server1_0: String = "gametechforge.website/app/ins1ghtc0mp4nion"
-    let landing_request: String = "https://app.gametechforge.website/api/home"
+    let storage_domain: String = "https://appstorage.org/api/conf/ins1ghtc0mp4nion"
 }
